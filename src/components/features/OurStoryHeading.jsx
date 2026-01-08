@@ -2,8 +2,8 @@
 
 export default function OurStoryHeading() {
     return (
-        <h2 className="ourStoryHeading__heading">
+        <h1 className="ourStoryHeading__heading">
             Our Story
-        </h2>
+        </h1>
     )
 }

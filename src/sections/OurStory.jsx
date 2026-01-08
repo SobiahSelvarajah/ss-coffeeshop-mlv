@@ -4,6 +4,7 @@ export default function OurStory() {
     return (
         <section className="ourStory__container">
             <OurStoryHeading />
+            
         </section>
     )
 }
