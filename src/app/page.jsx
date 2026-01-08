@@ -1,8 +1,10 @@
+import BestSellers from "@/sections/BestSellers";
 import OurStory from "@/sections/OurStory";
 
 export default function Home() {
   return (
     <>
+      <BestSellers />
       <OurStory />
     </>
   );
