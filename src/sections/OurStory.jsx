@@ -1,6 +1,7 @@
 import OurStoryHeading from "@/components/features/OurStoryHeading";
 import AboutUsHeading from "@/components/features/AboutUsHeading";
 import AboutUsText from "@/components/features/AboutUsText";
+import WhyChooseHeading from "@/components/features/WhyChooseHeading";
 
 export default function OurStory() {
     return (
@@ -8,6 +9,7 @@ export default function OurStory() {
             <OurStoryHeading />
             <AboutUsHeading /> 
             <AboutUsText />
+            <WhyChooseHeading />
         </section>
     )
 }
