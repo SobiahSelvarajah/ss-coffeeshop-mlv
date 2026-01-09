@@ -1,9 +1,7 @@
 import Image from "next/image";
 import OurStoryHeading from "@/components/features/OurStoryHeading";
-import AboutUsHeading from "@/components/features/AboutUsHeading";
-import AboutUsText from "@/components/features/AboutUsText";
-import OurPassionHeading from "@/components/features/OurPassionHeading";
-import OurPassionText from "@/components/features/OurPassionText";
+import AboutUs from "@/components/features/AboutUs";
+import OurPassion from "@/components/features/OurPassion";
 import WhyChooseHeading from "@/components/features/WhyChooseHeading";
 
 export default function OurStory() {
@@ -18,12 +16,13 @@ export default function OurStory() {
                     height={800}
                 />
             </div>
-            <OurStoryHeading />
-            <AboutUsHeading /> 
-            <AboutUsText />
-            <OurPassionHeading />
-            <OurPassionText />
-            <WhyChooseHeading />
+            <div className="ourStory__content">
+                <OurStoryHeading />
+                <AboutUs />
+                <OurPassion />
+                <WhyChooseHeading />                
+            </div>
+
         </article>
     )
 }
