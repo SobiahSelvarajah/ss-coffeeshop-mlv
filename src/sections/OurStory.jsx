@@ -3,6 +3,7 @@ import OurStoryHeading from "@/components/features/OurStoryHeading";
 import AboutUs from "@/components/features/AboutUs";
 import OurPassion from "@/components/features/OurPassion";
 import WhyChoose from "@/components/features/WhyChoose";
+import FollowUsHeading from "@/components/features/FollowUsHeading";
 
 export default function OurStory() {
     return (
@@ -21,6 +22,7 @@ export default function OurStory() {
                 <AboutUs />
                 <OurPassion />
                 <WhyChoose />
+                <FollowUsHeading />
             </div>
 
         </article>
