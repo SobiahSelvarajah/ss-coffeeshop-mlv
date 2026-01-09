@@ -2,7 +2,7 @@ import Image from "next/image";
 import OurStoryHeading from "@/components/features/OurStoryHeading";
 import AboutUs from "@/components/features/AboutUs";
 import OurPassion from "@/components/features/OurPassion";
-import WhyChooseHeading from "@/components/features/WhyChooseHeading";
+import WhyChoose from "@/components/features/WhyChoose";
 
 export default function OurStory() {
     return (
@@ -20,7 +20,7 @@ export default function OurStory() {
                 <OurStoryHeading />
                 <AboutUs />
                 <OurPassion />
-                <WhyChooseHeading />                
+                <WhyChoose />
             </div>
 
         </article>
