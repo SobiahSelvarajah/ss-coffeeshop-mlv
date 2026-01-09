@@ -1,4 +1,5 @@
 import TermsHeading from "@/components/features/TermsHeading";
+import Disclaimer from "@/components/features/Disclaimer";
 
 export const metadata = {
     title: "Terms and Conditions",
@@ -6,8 +7,9 @@ export const metadata = {
 
 export default function TermsPage() {
     return (
-        <section className="termsPage__container">
+        <div className="termsPage__container">
             <TermsHeading />
-        </section>
+            <Disclaimer />
+        </div>
     )
 }
