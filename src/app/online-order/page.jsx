@@ -1,3 +1,4 @@
+import OnlineOrderHeading from "@/components/features/OnlineOrderHeading";
 
 
 export const metadata = {
@@ -6,6 +7,8 @@ export const metadata = {
 
 export default function OnlineOrder() {
     return (
-        <div className="onlineOrder__container"></div>
+        <div className="onlineOrder__container">
+            <OnlineOrderHeading />
+        </div>
     )
 }
